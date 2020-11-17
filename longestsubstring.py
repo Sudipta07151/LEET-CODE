@@ -13,5 +13,6 @@ while left<len(str) and right<len(str):
     ans=max(ans,right-left+1)
     right=right+1
 
+print(m)
 print(ans)   
 
